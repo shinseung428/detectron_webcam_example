@@ -1,7 +1,7 @@
 # Sample code to run detectron using webcam  
-This is a very simple example code to run Detectron Mask RCNN code using webcam.  
-Place infer_simple.py file in  /detectron/tools/ and vis.py file in /detectron/lib/utils/ folder.
-The code to run the test is the same as it is mentioned in (FB Detectron)[https://github.com/facebookresearch/Detectron/edit/master/GETTING_STARTED.md] website.  
+This is a very simple code to run Detectron Mask RCNN using webcam.  
+Place infer_simple.py file in  /detectron/tools/ and vis.py file in /detectron/lib/utils/ folder.  
+The code to run the test is the same as it is mentioned in [FB Detectron](https://github.com/facebookresearch/Detectron/edit/master/GETTING_STARTED.md) website.  
 
 ```
 python2 tools/infer_simple.py \
