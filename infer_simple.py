@@ -111,12 +111,15 @@ def main(args):
         #     args.output_dir, '{}'.format(os.path.basename(im_name) + '.pdf')
         # )
         # logger.info('Processing {} -> {}'.format(im_name, out_name))
+
+    #set webcam
     cam = cv2.VideoCapture(0)
     while True:
+        #Fetch image from camera
         ret_val, im = cam.read()
+        #uncomment to resize image
         #im = cv2.resize(im, (1200,1024))
 
-        # im = cv2.imread(im_name)
         timers = defaultdict(Timer)
         t = time.time()
         with c2_utils.NamedCudaScope(0):

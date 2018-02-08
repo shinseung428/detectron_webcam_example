@@ -386,7 +386,8 @@ def vis_one_image(
                     line, color=colors[len(kp_lines) + 1], linewidth=1.0,
                     alpha=0.7)
 
-
+    #Detectron processes each image using matpyplot
+    #change figure to numpy data to visualized
     image = fig2data(fig)
     image = image[...,::-1]
 
