@@ -16,7 +16,7 @@ The code was tested successfully in
 * Ubuntu 16.04  
 * Cuda 8.0  
 * CUDNN 6  
-* opencv 2.4  
+* opencv 3.4  
 
 
 
